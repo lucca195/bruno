@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Clique</title>
+    <style>
+        #mensagem {
+            display: none;
+            font-size: 24px;
+            color: #333;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="mostrarMensagem()">Clique aqui</button>
+    <div id="mensagem">cigarrinho</div>
+
+    <script>
+        function mostrarMensagem() {
+            document.getElementById('mensagem').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
+
